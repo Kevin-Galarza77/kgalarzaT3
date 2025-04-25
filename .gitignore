@@ -1,0 +1,56 @@
+## General .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Mac
+*.DS_Store
+
+# Build Results
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+*.exe
+*.dll
+*.app
+*.apk
+*.aab
+*.msi
+*.pdb
+
+# MAUI specific
+Platforms/Android/obj/
+Platforms/Android/bin/
+Platforms/iOS/obj/
+Platforms/iOS/bin/
+Platforms/MacCatalyst/obj/
+Platforms/MacCatalyst/bin/
+Platforms/Windows/obj/
+Platforms/Windows/bin/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+
+# Others
+*.db
+*.db-shm
+*.db-wal
+*.swp
