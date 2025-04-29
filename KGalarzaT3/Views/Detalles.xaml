@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KGalarzaT3.Views.Detalles"
+             Title="Detalles IESS">
+
+    <VerticalStackLayout Spacing="0">
+
+        <Image Source="iess.png" 
+           HeightRequest="150"
+           HorizontalOptions="Fill"
+           Margin="15"
+           VerticalOptions="Start" />
+
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="15">
+
+                <Label Text="Tipo de Identificación" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="ciTypeText" 
+                  Keyboard="Numeric" 
+                  Placeholder="Ingrese número" 
+                  IsEnabled="False"
+                  />
+
+                <Label Text="Número de Identificación" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="ciText" 
+                  Keyboard="Numeric" 
+                  Placeholder="Ingrese número" 
+                   IsEnabled="False"
+                  />
+
+                <Label Text="Nombres" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="nameText" 
+                  Placeholder="Ingrese nombres"  
+                   IsEnabled="False"
+                  />
+
+                <Label Text="Apellidos" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="lastNameText" 
+                  Placeholder="Ingrese apellidos" 
+                   IsEnabled="False"
+                  />
+
+                <Label Text="Fecha de Nacimiento" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="bornTxt" 
+                  Keyboard="Email" 
+                  Placeholder="Ingrese correo" 
+                   IsEnabled="False"
+                  />
+
+                <Label Text="Correo Electrónico" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="emailText" 
+                  Keyboard="Email" 
+                  Placeholder="Ingrese correo" 
+                   IsEnabled="False"
+                  />
+
+                <Label Text="Salario" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="salaryText" 
+                  Keyboard="Numeric" 
+                  Placeholder="Ingrese salario" 
+                   IsEnabled="False"
+                  />
+
+                <Label Text="Aporte IESS" 
+                   Style="{StaticResource labelStyle}"
+                   />
+                <Entry x:Name="inputIESSText" 
+                  Keyboard="Numeric" 
+                  Placeholder="Ingrese salario" 
+                   IsEnabled="False"
+                  />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+
+    </VerticalStackLayout>
+    
+</ContentPage>
